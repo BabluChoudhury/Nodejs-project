@@ -5,5 +5,5 @@ const custPath=path.join(__dirname,"../public");
 console.log(custPath);
 app.use(express.static(custPath));
 app.listen(8000,()=>{
-    console.log("Listining");
+    console.log("Listining 8000");
 });
